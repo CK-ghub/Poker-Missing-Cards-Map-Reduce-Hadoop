@@ -18,7 +18,7 @@ The '.' represents the current directory.
 2) Once you transfer the MissingCards.java and input.txt files onto the EC2 instance, we need to compile the classes and create a jar file. 
 
 3) Command to compile the code:
-javac -classpath `hadoop classpath` -d MissingCards MissingCards.java
+javac -classpath ``hadoop classpath`` -d MissingCards MissingCards.java
 
 4) Command to add all Class files in the MissingCards directory from step 3 to jar:
 jar -cvf MissingCards.jar -C MissingCards/ .
