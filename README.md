@@ -3,10 +3,10 @@ In this program, we will use a MapReduce-based approach to find all the missing 
 
 With the help of the following steps and commands, you can execute and test the program. I ran this on an EC2 instance configured with Ubuntu and Hadoop setup in pseudo-distributed mode. 
 
-Prerequisites: <br>
+## Prerequisites: 
 <li>Java installed</li>	
 <li>Hadoop installed and setup</li>	
-
+<br>
 1) To place any file from your local onto EC2 instance: 
 scp -i Ec2_instance_key.pem path/to/your/file ubunt@IPv4address:/home/ubuntu
 
