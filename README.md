@@ -36,5 +36,5 @@ hadoop jar MissingCards.jar MissingCards /input/ /output/
 
 You have to specify the name of the jar file, the main class, and input and output directories.
 
-5) To view the output, use the following command to access the output in output folder of HDFS:
+9) To view the output, use the following command to access the output in output folder of HDFS:
 hadoop fs -cat /output/part-r-00000
